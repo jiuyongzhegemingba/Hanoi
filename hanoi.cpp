@@ -17,7 +17,10 @@ void hanoi(int n,char post1='A',char post2='B',char post3='C')
  
 int main()
 {
-	hanoi(3);
+	int plates;
+	cout<<"Input the number of plates:"<<endl;
+	cin>>plates;
+	hanoi(plates);
 	
 	return 0;
 }
